@@ -14,22 +14,6 @@ Parallel Queue Processor: Features a customizable concurrency slider (1 to 10 co
 Robust Error Handling: Automatically retries failed chunk requests up to 3 times.
 Live Performance Dashboard: Shows download speed, percentage progress, elapsed/remaining time (ETA), and estimated file size, along with a scrolling system log.
 
-🚀 Installation Guide
-Option 1: Install via Packaged Extension (.crx) - Recommended
-Locate the bv-m3u8-downloader.crx file.
-Open Google Chrome and go to chrome://extensions/.
-Enable "Developer mode" in the top-right corner.
-Drag and drop the bv-m3u8-downloader.crx file directly anywhere onto the chrome://extensions/ page.
-Click "Add extension" when the confirmation dialog pops up.
-
-
-📝 How to Use
-Pin the BV M3U8 Downloader icon to your Chrome toolbar.
-Go to any website containing an HLS video player and start playing a video.
-Once a stream is detected, the extension icon badge will count it.
-Click the popup and choose "İndir" (Download) to open the download panel.
-In the dashboard, configure the filename, select quality/resolution, adjust concurrency, and click "İndirmeyi Başlat" (Start Download).
-The compiled .mp4 video file will automatically save to your computer once complete.
 
 Türkçe
 Web tarayıcınızdan .m3u8 (HLS) video akışlarını anında tespit etmek ve indirmek için tasarlanmış modern, şık bir Google Chrome Eklentisidir (Manifest V3). Koyu tema cam morfizmine (glassmorphism) sahip bir kontrol paneli, AES-128 şifre çözme desteği, eşzamanlı (paralel) parça indirme ve otomatik video birleştirme motoru içerir.
@@ -43,21 +27,6 @@ Paralel Bağlantı Motoru: İndirme işlemini hızlandırmak için 1 ila 10 aras
 Hata Toleransı: Başarısız olan parça isteklerini otomatik olarak 3 kez tekrar dener.
 Canlı İstatistik Paneli: İndirme hızı, ilerleme yüzdesi, geçen/kalan süre, tahmini dosya boyutu ve ayrıntılı bir sistem günlüğü (terminal) sunar.
 
-🚀 Kurulum Adımları
-Yöntem 1: Paketlenmiş Eklenti (.crx) ile Kurulum - Önerilen
-bv-m3u8-downloader.crx dosyasının konumunu bulun.
-Google Chrome tarayıcınızı açın ve adres çubuğuna chrome://extensions/ yazın.
-Sağ üst köşedeki "Geliştirici modu" seçeneğini aktif edin.
-bv-m3u8-downloader.crx dosyasını sürükleyip doğrudan chrome://extensions/ sayfasının üzerine bırakın.
-Çıkan onay penceresinde "Uzantı ekle" butonuna tıklayın.
-
-📝 Nasıl Kullanılır?
-BV M3U8 Downloader ikonunu Chrome araç çubuğunuza sabitleyin.
-M3U8 video oynatılan herhangi bir web sayfasına gidin ve videoyu oynatın.
-Video algılandığında eklenti ikonunda mavi renkli bir bildirim sayısı belirecektir.
-İkona tıklayıp "İndir" butonuna basarak indirme panelini açın.
-Dosya adını belirleyin, kalitesini seçin, bağlantı sayısını ayarlayıp "İndirmeyi Başlat" butonuna tıklayın.
-İndirme bittiğinde birleştirilmiş .mp4 video dosyanız otomatik olarak bilgisayarınıza kaydedilecektir.
 
 📄 Copyright & License
 Copyright © 2026 batutekin.com. All Rights Reserved.
